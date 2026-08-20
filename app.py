@@ -2,7 +2,7 @@ import streamlit as st
 from PIL import Image
 st.title ("hola!!, mi nombre es juan pablo")
 
-image= Image.open("amoor.jpg")
+image= Image.open("digimon.jpg")
 st.image (image,caption = "digimon")
 
 st.header("pagina Digimon")
