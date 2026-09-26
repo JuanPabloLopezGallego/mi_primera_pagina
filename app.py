@@ -1,14 +1,14 @@
 import streamlit as st
 from PIL import Image
-st.title ("hola!!, mi nombre es Juan Pablo")
+st.title ("Hola!!, mi nombre es Juan Pablo")
 
 image= Image.open("digimon.jpg")
 st.image (image,caption = "Digimon")
 
-st.header("página Digimon")
-st.write ("página sobre Digimon")
+st.header("Página Digimon")
+st.write ("Página sobre Digimon")
 
-texto= st.text_input("Escribe tu Digimon favorito","este es mi texto")
+texto= st.text_input("Escribe tu Digimon favorito","...")
 st.write("Tu Digimon favorito es", texto)
 
 st.subheader("Ahora usemos 2 columnas")
